@@ -24,17 +24,17 @@
 
 这里引入了一个2's complement method(补码)的一个思想方法，这里的补码可以理解为取负的意思，注意和Bitwise negation区别开来。
 
-![001](ALU/001.png)
+<img src="ALU/001.png" alt="2's complement method" style="zoom:100%;" />
+
+
 
 这样问题就迎刃而解了，具体为什么，如果你对着感兴趣的话，可以自行学习下。
 
 之后再看一看ALU的功能
 
-![002](ALU/002.png)
+<img src="ALU/002.png" alt="ALU" style="zoom:100%;" />
 
-
-
-![003](ALU/003.png)
+<img src="ALU/003.png" alt="Function of ALU" style="zoom:100%;" />
 
 最后还有一个Inc16的chip(这里的Inc其实是Incrementor的缩写),其功能是在16bits输入的情况下，输出In+1的情况。
 
